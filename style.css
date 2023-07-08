@@ -4,6 +4,17 @@
 .text-primary {
   color: #fd6e0a;
 }
+.btn {
+  border-radius: 5px;
+  border: 1px solid #fd6e0a;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fd6e0a;
+  background-color: white;
+  padding: 15px 35px;
+  margin-left: 30px;
+  cursor: pointer;
+}
 .btn-primary {
   background-color: #fd6e0a;
   border-radius: 5px;
@@ -12,6 +23,7 @@
   font-weight: 700;
   color: #ffffff;
   padding: 15px 35px;
+  cursor: pointer;
 }
 nav {
   display: flex;
@@ -163,10 +175,27 @@ main {
   font-weight: 400;
   line-height: 28px;
 }
-footer{
-    display: flex;
-    gap: 100px;
-   background: #fff8f3;
-   margin-top: 100px;
-   padding: 130px 200px;
+footer {
+  display: flex;
+  gap: 100px;
+  background: #fff8f3;
+  margin-top: 100px;
+  padding: 130px 200px;
+}
+.footer-col {
+  width: 50%;
+}
+.contact input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  font-size: 16px;
+  color: #ffffff;
+  border: 0;
+  width: 100%;
+}
+.links a {
+  margin-right: 25px;
 }
