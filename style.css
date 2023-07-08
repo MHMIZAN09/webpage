@@ -4,6 +4,9 @@
 .text-primary {
   color: #fd6e0a;
 }
+.fa-solid fa-arrow-down{
+  
+}
 .btn {
   border-radius: 5px;
   border: 1px solid #fd6e0a;
@@ -50,7 +53,7 @@ nav a {
 }
 .header {
   background: #fff8f3;
-  background-image: url(images/header_bg.png), url(images/developer.png);
+  background-image: url('images/header_bg.png'), url('images/developer.png');
   background-repeat: no-repeat;
   background-position: bottom right, top left;
 }
@@ -136,7 +139,6 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: #181818; */
 }
 .resume-col-title {
   color: #474747;
